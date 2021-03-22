@@ -1,4 +1,5 @@
 import React, { useEffect, useState, } from 'react';
+import AddWater from './AddWater';
 
 
 function Water() {
@@ -38,7 +39,7 @@ function Water() {
             <p>Wind Speed: {dat.wind.speed} м/с</p>
             <p>Visibility: {dat.visibility} m</p>
 
-
+            <AddWater />
         </div >
     );
 }
